@@ -62,25 +62,25 @@ All sequencing data were aligned to the T2T human genome assembly (hs1/CHM13v2.0
 ## Dependencies
 
 ### Bioinformatics tools
-All tools were run on an HPC cluster (r1pl-hpcf, SLURM; pauper2; corona2) using the following versions:
+All tools were run on an HPC cluster using the following versions:
 
 | Tool | Version | Use |
 |---|---|---|
 | Trimmomatic | 0.39 | Adapter trimming |
-| Bowtie2 | — | Alignment to hs1 |
+| Bowtie2 | 2.5.2 | Alignment to hs1 |
 | Samtools | 1.10 | BAM processing and filtering |
 | Picard | 2.27.3 | Duplicate removal, downsampling, merging |
 | DANPOS | 3.1.1 | Nucleosome position calling |
 | deepTools | 3.5.1 | Coverage computation, log2 ratio, heatmaps |
 | MACS3 | — | ChIP/CUT&RUN peak calling |
-| bedtools | — | Genomic interval operations |
+| bedtools | v2.31.1 | Genomic interval operations |
 | UCSC kentUtils | — | wigToBigWig, liftOver |
 | OpenMM | 8.2 | Chromatin polymer simulation (NVIDIA A100 GPU) |
 | cooler | — | Hi-C contact matrix extraction |
 | pyBigWig | — | BigWig file reading |
 | SciPy | — | Nucleosome dyad peak calling |
 
-### R packages
+### R 4.5.2 packages
 | Package | Version | Use |
 |---|---|---|
 | ggplot2 | — | Figures |
@@ -126,7 +126,7 @@ Genome files used:
 
 ## Data Availability
 
-Raw and processed sequencing data generated in this study are deposited in NCBI GEO under accession **[GSE###### — to be assigned upon acceptance]**.
+Raw and processed sequencing data generated in this study are deposited in NCBI GEO
 
 ---
 
