@@ -72,25 +72,25 @@ All tools were run on an HPC cluster using the following versions:
 | Picard | 2.27.3 | Duplicate removal, downsampling, merging |
 | DANPOS | 3.1.1 | Nucleosome position calling |
 | deepTools | 3.5.1 | Coverage computation, log2 ratio, heatmaps |
-| MACS3 | — | ChIP/CUT&RUN peak calling |
+| MACS3 | 3.0.4 | ChIP/CUT&RUN peak calling |
 | bedtools | v2.31.1 | Genomic interval operations |
 | UCSC kentUtils | — | wigToBigWig, liftOver |
 | OpenMM | 8.2 | Chromatin polymer simulation (NVIDIA A100 GPU) |
-| cooler | — | Hi-C contact matrix extraction |
-| pyBigWig | — | BigWig file reading |
-| SciPy | — | Nucleosome dyad peak calling |
+| cooler | 0.10.4 | Hi-C contact matrix extraction |
+| pyBigWig | 0.3.25 | BigWig file reading |
+| SciPy | 1.15.2 | Nucleosome dyad peak calling |
 
 ### R 4.5.2 packages
 | Package | Version | Use |
 |---|---|---|
-| ggplot2 | — | Figures |
-| ggpattern | — | Hatched bar charts |
-| dplyr / tidyr | — | Data manipulation |
-| patchwork | — | Multi-panel figures |
-| clusterProfiler | — | GO enrichment analysis |
-| org.Hs.eg.db | — | Gene ID mapping |
+| ggplot2 | 4.0.3 | Figures |
+| ggpattern | 1.3.1 | Hatched bar charts |
+| dplyr / tidyr | 1.2.1/1.3.2 | Data manipulation |
+| patchwork | 1.3.2 | Multi-panel figures |
+| clusterProfiler | 4.18.4 | GO enrichment analysis |
+| org.Hs.eg.db | 3.22.0 | Gene ID mapping |
 | PlotGardener | 1.4.1 | Genomic loci visualization |
-| VennDiagram | — | Venn diagrams |
+| VennDiagram | 1.8.2 | Venn diagrams |
 
 ### Python packages
 | Package | Use |
