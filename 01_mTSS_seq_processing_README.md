@@ -22,7 +22,7 @@ This section covers the full processing pipeline for micrococcal nuclease TSS-se
 - Paired-end FASTQ files (Illumina, PE50)
 - Sequenced on Illumina NovaSeq 6000 at FSU College of Medicine
 - Target depth: >20 million paired-end reads per sample (~20× coverage of ~42 Mb captured promoter space)
-- Samples include: shScramble (clone1, clone2), shHP1α (clone5, clone6/cloneE), shHP1β (cloneD, clone15), shH2AZ
+- Samples include: shScramble (clone1, clone2), shHP1α (clone5, clone6), shHP1β (cloneD, clone15), shH2AZ
 
 ---
 
@@ -231,10 +231,10 @@ python3 danpos.py dpos \
 ```
 
 Comparisons run:
-- shHP1α clone5 vs shScr clone2
-- shHP1α clone6/cloneE vs shScr clone1/clone2
-- shHP1β cloneD vs shScr clone1
-- shHP1β clone15 vs shScr clone2
+- shHP1α clone5 vs shScr clone1/clone2
+- shHP1α clone6 vs shScr clone1/clone2
+- shHP1β cloneD vs shScr clone1/clone2
+- shHP1β clone15 vs shScr clone1/clone2
 
 **Key DANPOS parameters (consistent across all runs):**
 - `-m 1` — paired-end mode
