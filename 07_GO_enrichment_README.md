@@ -25,7 +25,7 @@ Genes assigned to each k-means cluster (k=7) were extracted from the cluster BED
 
 | k-means file | Sorted by |
 | --- | --- |
-| `HP1_HPTM_2kb_sen_matrix_og_sort_k7.bed` | Nucleosome occupancy |
+| `*_sort_k7.bed` | Nucleosome occupancy |
 | `*_sensitivity_k7.bed` | MNase sensitivity |
 | `*_H2AZ_sensitivity_k7.bed` | H2AZ sensitivity |
 | `*_shH2AZ_sensitivity_k7.bed` | shH2AZ sensitivity |
