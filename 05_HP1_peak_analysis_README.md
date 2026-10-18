@@ -8,8 +8,7 @@ This section covers MACS3 peak calling on HP1α and HP1β ChIP-seq data across f
 
 ## Samples
 
-Twenty libraries were sequenced across four conditions. Note: WT condition has no input control; TS19/TS20 (KD_H2AZ inputs) were used as proxy controls for all conditions requiring an input.
-
+Twenty libraries were sequenced across four conditions.
 | Sample ID | GEO library name | Description |
 | --- | --- | --- |
 | TS1 | MCF10A_WT_ChIP-HP1a_rep1 | HP1α ChIP, WT, rep1 |
@@ -33,7 +32,6 @@ Twenty libraries were sequenced across four conditions. Note: WT condition has n
 | TS19 | MCF10A_H2AZKD_Input_rep1 | Input, shH2AZ KD, rep1 |
 | TS20 | MCF10A_H2AZKD_Input_rep2 | Input, shH2AZ KD, rep2 |
 
-> **Note on input controls:** No dedicated input was sequenced for the WT condition. TS19 and TS20 (shH2AZ KD inputs) were used as the input control for WT HP1α and HP1β peak calling.
 
 ---
 
