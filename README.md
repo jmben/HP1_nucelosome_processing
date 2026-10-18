@@ -19,42 +19,16 @@ All sequencing data were aligned to the T2T human genome assembly (hs1/CHM13v2.0
 ## Repository Structure
 
 ```
-├── README.md                          # This file
-├── 01_mTSS_seq_processing/
-│   ├── README.md                      # Detailed notes for mTSS-seq pipeline
-│   └── mTSS_seq_processing.sh         # Full bash pipeline: QC → alignment → DANPOS
-├── 02_ChIP_CUT_and_RUN_processing/
-│   ├── README.md                      # Detailed notes for ChIP/CUT&RUN pipeline
-│   └── ChIP_CUTandRUN_processing.sh   # Full bash pipeline: QC → alignment → peak calling
-├── 03_condense_seq_processing/
-│   ├── README.md                      # Detailed notes for condense-seq pipeline
-│   └── condense_seq_processing.sh     # Nucleosome isolation → condensation → library prep pipeline
-├── 04_nucleosome_sensitivity/
-│   ├── README.md                      # Detailed notes for sensitivity classification
-│   ├── nucleosome_sensitivity_classification.R   # DANPOS output parsing and S/R/N classification
-│   └── nucleosome_sensitivity_figures.R          # Sensitivity proportion and count figure scripts
-├── 05_HP1_peak_analysis/
-│   ├── README.md                      # Detailed notes for HP1/H3K9me3 intersection analysis
-│   ├── HP1_H3K9me3_intersect.sh       # Genome-wide HP1 vs H3K9me3 overlap quantification
-│   ├── HP1_H3K9me3_promoter_intersect.sh  # Promoter-restricted HP1 vs H3K9me3 overlap
-│   ├── HP1_peak_signal_extract.sh     # Peak signal extraction by H3K9me3 overlap status
-│   └── HP1_peak_figures.R             # HP1 overlap and signal distribution figures
-├── 06_chromatin_polymer_simulation/
-│   ├── README.md                      # Detailed notes for polymer simulation
-│   ├── 01_build_condensability_vector.py   # Condense-seq/MNase signal binning and normalization
-│   ├── 02_build_energy_matrix.py          # Intermediate energy matrix construction
-│   ├── 03_run_simulation.py               # OpenMM simulation execution
-│   └── 04_contact_matrix_analysis.py      # Contact map generation, TAD calling, compartment PCA
-├── 07_GO_enrichment/
-│   ├── README.md                      # Detailed notes for GO analysis
-│   └── HP1_cluster_GO.R               # GO Biological Process enrichment across nucleosome clusters
-└── 08_figure_scripts/
-    ├── README.md                      # Figure generation notes
-    ├── nucleosome_distribution_barplot.R         # Figure: nucleosome distribution changes
-    ├── nucleosome_sensitivity_HP1_dualaxis.R     # Figure: sensitivity proportions shScr vs shHP1
-    ├── nucleosome_sensitivity_H2AZ_combined.R    # Figure: sensitivity proportions shScr vs shH2AZ
-    ├── HP1_promoter_H3K9me3_twopanel.R           # Figure: promoter HP1 peak counts and H3K9me3 overlap
-    └── HP1_WT_KD_H3K9me3_venn.svg               # Figure: three-circle Venn HP1/H3K9me3 overlap
+├── README.md                                           # This file
+├── 01_mTSS_seq_processing_README.md                    # Detailed notes for mTSS-seq pipeline
+├── 02_ChIP_CUT_and_RUN_processing_README.md            # Detailed notes for ChIP/CUT&RUN pipeline
+├── 03_condense_seq_processing_README.md                # Detailed notes for condense-seq pipeline
+├── 04_nucleosome_sensitivity_README.md                 # Detailed notes for sensitivity classification
+├── 05_HP1_peak_analysis_README.md                      # Detailed notes for HP1/H3K9me3 intersection analysis
+├── 06_chromatin_polymer_simulation_README.md           # Detailed notes for polymer simulation
+├── 07_GO_enrichment_README.md                          # Detailed notes for GO analysis
+└── scripts
+    ├── individual scripts for each of the above processes 
 ```
 
 ---
